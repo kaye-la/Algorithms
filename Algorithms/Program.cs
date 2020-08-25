@@ -1,32 +1,29 @@
-﻿using Algorithms.Sorting;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Algorithms.Tests;
 
 namespace Algorithms
 {
     class Program
     {
+        /// <summary>
+        /// Stack, queue - check it
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
-            #region Bubble Sorting Test
-            Console.WriteLine("\n-----------Bubble Sorting-------------");
+            SortingTest.run();
+            SetTest.run();
+            LinkedListTest.run();
+            HashTableTest.run();
 
-            int[] tempSort = { 1, 10, 2, 5, 3, 7 };
-            Console.Write("Array: ");
-            for (int i = 0; i < tempSort.Count(); i++)
-                Console.Write(tempSort[i] + " ");
-
-            BubbleSort<int>.Sort(tempSort);
-            Console.Write("\nSorted array: ");
-            for (int i = 0; i < tempSort.Count(); i++)
-                Console.Write(tempSort[i] + " ");
-            Console.WriteLine();
-            #endregion
 
             Console.ReadKey();
+            //Console, bd, site;
+            //it-brick company;
         }
     }
 }

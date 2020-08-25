@@ -42,10 +42,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HashTable\HashTableArray.cs" />
+    <Compile Include="HashTable\HashTableList.cs" />
+    <Compile Include="HashTable\HashTableNode.cs" />
+    <Compile Include="QueueStack\DoublyNode.cs" />
+    <Compile Include="QueueStack\Queue.cs" />
+    <Compile Include="QueueStack\Stack.cs" />
+    <Compile Include="LinkedList\DoublyLinkedList.cs" />
+    <Compile Include="LinkedList\DoublyNode.cs" />
+    <Compile Include="LinkedList\LinkedList.cs" />
+    <Compile Include="LinkedList\Node.cs" />
+    <Compile Include="Set.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sorting\BubbleSort.cs" />
+    <Compile Include="Sorting\HeapSort.cs" />
+    <Compile Include="Sorting\InsertionSort.cs" />
+    <Compile Include="Sorting\MergeSort.cs" />
+    <Compile Include="Sorting\QuickSort.cs" />
     <Compile Include="Sorting\SelectionSort.cs" />
+    <Compile Include="Sorting\ShellSort.cs" />
+    <Compile Include="Tests\HashTableTest.cs" />
+    <Compile Include="Tests\LinkedListTest.cs" />
+    <Compile Include="Tests\SetTest.cs" />
+    <Compile Include="Tests\SortingTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
